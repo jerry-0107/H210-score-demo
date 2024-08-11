@@ -1,0 +1,66 @@
+{
+  "name": "210-score",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.10",
+    "@mui/x-charts": "^6.0.0-alpha.12",
+    "@mui/x-data-grid": "^6.18.2",
+    "@mui/x-tree-view": "^6.0.0-alpha.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.0",
+    "bcrypt": "^5.1.1",
+    "cookie-session": "^2.0.0",
+    "create-react-app": "^5.0.1",
+    "dayjs": "^1.11.10",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "google-auth-library": "^9.4.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.4",
+    "nanoid": "^4.0.2",
+    "node-cron": "^3.0.2",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "react-google-recaptcha": "^3.1.0",
+    "react-recaptcha-x": "^1.1.16",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "serverless-http": "^3.2.0",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
